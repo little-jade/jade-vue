@@ -1,0 +1,13 @@
+<div id="app">
+  <h2>{{ product }} are in stock.</h2>
+</div>
+
+<script src="../dist/vue.global.js"></script>
+<script>
+const { createApp } = Vue;
+createApp({
+  data: {
+    product: "Boots"
+  }
+}).mount("#app");
+</script>
